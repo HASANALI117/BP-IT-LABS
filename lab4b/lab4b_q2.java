@@ -1,7 +1,7 @@
 /**
  * printDescendingOrder
  */
-public class Question2 {
+public class lab4b_q2 {
 
     // Method to sort the numbers in descending order
     public static void printDescendingOrder(int int1, int int2, int int3) {

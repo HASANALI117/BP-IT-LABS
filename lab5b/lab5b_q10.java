@@ -1,7 +1,7 @@
 /**
- * Question10
+ * lab5b_q10
  */
-public class Question10 {
+public class lab5b_q10 {
 
     public static void main(String[] args) {
         drawStars(5, false);

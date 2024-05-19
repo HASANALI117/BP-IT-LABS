@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 /**
- * Question3
+ * lab5b_q3
  */
-public class Question3 {
+public class lab5b_q3 {
     // Create a Scanner object for user input
     static Scanner input = new Scanner(System.in);
 

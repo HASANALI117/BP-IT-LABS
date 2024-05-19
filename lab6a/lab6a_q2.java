@@ -1,6 +1,6 @@
 package lab6a;
 
-public class Question2 {
+public class lab6a_q2 {
     public static void main(String[] args) {
         String[] array = { "Manama", "Sitra", "Muharraq", "AlAhli", "Riffa" };
         for (String string : array) {

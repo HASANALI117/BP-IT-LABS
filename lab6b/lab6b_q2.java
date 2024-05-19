@@ -1,6 +1,6 @@
 package lab6b;
 
-public class Question2 {
+public class lab6b_q2 {
     public static void main(String[] args) {
         String[] names = new String[10];
         names[0] = "Ahmed";

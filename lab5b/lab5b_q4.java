@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Question4 {
+public class lab5b_q4 {
     public static void main(String[] args) {
         menu();
     }

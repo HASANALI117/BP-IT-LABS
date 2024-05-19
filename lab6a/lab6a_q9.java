@@ -1,6 +1,6 @@
 package lab6a;
 
-public class Question9 {
+public class lab6a_q9 {
     public static void main(String[] args) {
         String students[] = { "John", "Maryam", "Fatema", "Paul", "Zainab", "Mary", "Ahmed", "Peter", "Hussain",
                 "Sayed Hussain" };

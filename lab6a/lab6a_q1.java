@@ -1,9 +1,9 @@
 package lab6a;
 
 /**
- * Question1
+ * lab6a_q1
  */
-public class Question1 {
+public class lab6a_q1 {
 
     public static void main(String[] args) {
         int[] array = { 3, 7, 6, 4, 8 };

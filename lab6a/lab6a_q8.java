@@ -2,7 +2,7 @@ package lab6a;
 
 import java.util.Scanner;
 
-public class Question8 {
+public class lab6a_q8 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String[] array = { "Manama", "Sitra", "Muharraq", "AlAhli", "Riffa" };

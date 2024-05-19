@@ -2,7 +2,7 @@ package lab6b;
 
 import java.util.Arrays;
 
-public class Question6 {
+public class lab6b_q6 {
     public static void main(String[] args) {
         int[] numbers = { 1, 2, 3, 4, 5 };
         int nb = 2;

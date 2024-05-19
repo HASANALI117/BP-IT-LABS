@@ -1,6 +1,6 @@
 package lab6b;
 
-public class Question3 {
+public class lab6b_q3 {
     public static void main(String[] args) {
         int[] data = new int[] { 10, 20, -5, 100 };
         System.out.println(sumElements(data));

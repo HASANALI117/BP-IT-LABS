@@ -1,4 +1,4 @@
-public class Question5 {
+public class lab4b_q5 {
     public static void main(String[] args) {
         XOnEitherSides("x");
     }

@@ -1,6 +1,6 @@
 package lab6b;
 
-public class Question4 {
+public class lab6b_q4 {
     public static void main(String[] args) {
         System.out.println(findFirst(new int[] { 10, 20, 30, 50, 40, 30 }, 30));
     }

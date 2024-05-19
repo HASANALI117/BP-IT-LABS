@@ -2,7 +2,7 @@ package lab6b;
 
 import java.util.Scanner;
 
-public class Question1 {
+public class lab6b_q1 {
     public static void main(String[] args) {
         String[] names = new String[10];
         names[0] = "Ahmed";

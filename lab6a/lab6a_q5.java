@@ -1,6 +1,6 @@
 package lab6a;
 
-public class Question5 {
+public class lab6a_q5 {
     public static void main(String[] args) {
         boolean flag = false;
 

@@ -1,6 +1,6 @@
 package lab6b;
 
-public class Question5 {
+public class lab6b_q5 {
     public static void main(String[] args) {
         String[] words = { "Philippe", "Osama", "David", "Abdulmonem" };
         System.out.println("longest string is: " + longestString(words));

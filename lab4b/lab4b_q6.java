@@ -1,4 +1,4 @@
-public class Question6 {
+public class lab4b_q6 {
     public void main(String[] args) {
         int x = 1;
         System.out.println(isXOdd(x));

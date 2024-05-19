@@ -1,7 +1,7 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class Question2 {
+public class lab5b_q2 {
 
     public static void main(String[] args) {
         convert();

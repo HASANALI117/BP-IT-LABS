@@ -1,6 +1,6 @@
 package lab6a;
 
-public class Question6 {
+public class lab6a_q6 {
     public static void main(String[] args) {
         int[] numbers = { 1, 2, 3, 4, 5 };
         check(numbers);

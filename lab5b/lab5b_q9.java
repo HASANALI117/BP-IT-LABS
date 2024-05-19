@@ -1,7 +1,7 @@
 /**
- * Question9
+ * lab5b_q9
  */
-public class Question9 {
+public class lab5b_q9 {
 
     public static void main(String[] args) {
         // Call the drawStars method with n value 5

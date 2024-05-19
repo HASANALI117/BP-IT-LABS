@@ -1,7 +1,7 @@
 /**
- * Question7
+ * lab5b_q7
  */
-public class Question7 {
+public class lab5b_q7 {
 
     public static void main(String[] args) {
         // Call the sumOfValues method with start value 3, stop value 12, and step 3

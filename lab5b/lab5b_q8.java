@@ -1,7 +1,7 @@
 /**
- * Question8
+ * lab5b_q8
  */
-public class Question8 {
+public class lab5b_q8 {
 
     public static void main(String[] args) {
         // Call the printOddNumber method with start value 7 and stop value 11

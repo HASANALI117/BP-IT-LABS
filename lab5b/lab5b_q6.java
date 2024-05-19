@@ -1,7 +1,7 @@
 /**
- * Question6
+ * lab5b_q6
  */
-public class Question6 {
+public class lab5b_q6 {
 
     public static void main(String[] args) {
         // Call the products method with start value 2 and stop value 8

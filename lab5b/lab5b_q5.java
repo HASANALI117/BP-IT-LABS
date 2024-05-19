@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 /**
- * Question5
+ * lab5b_q5
  */
-public class Question5 {
+public class lab5b_q5 {
 
     public static void main(String[] args) {
         menu(); // Call the menu method

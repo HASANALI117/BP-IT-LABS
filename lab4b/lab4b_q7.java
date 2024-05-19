@@ -1,4 +1,4 @@
-public class Question7 {
+public class lab4b_q7 {
     public static void main(String[] args) {
         isWithin(-11);
     }

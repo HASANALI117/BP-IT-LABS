@@ -1,6 +1,6 @@
 package lab6a;
 
-public class Question3 {
+public class lab6a_q3 {
     public static void main(String[] args) {
         int a[] = new int[10];
 

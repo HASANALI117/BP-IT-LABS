@@ -1,4 +1,4 @@
-public class Question3 {
+public class lab4b_q3 {
     public static void printReversedOrder(int input) {
         if (input < 100 || input > 999) {
             System.out.println("incorrect input.");
