@@ -1,4 +1,4 @@
-# BP-JAVA-LABS
+# BP-IT-LABS
 
 This repository contains my solutions for the labs and exercises of various IT courses at Bahrain Polytechnic University.
 
