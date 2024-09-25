@@ -34,4 +34,7 @@ hs_err_pid*
 **/.project
 **/.settings/
 
+.gitignore
 .vscode/
+Lab-6/
+Lab-7/
