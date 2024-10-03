@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>eastFood</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="./index.html"><h1>eastFood</h1></a>
+      <div>
+        <h3><a href="./index.html#about-us">About Us</a></h3>
+        <h3><a href="./index.html#menu">Menu</a></h3>
+        <h3><a href="./index.html#contact-us">Contact Us</a></h3>
+      </div>
+    </nav>
+
+    <div id="mid-section">
+      <div class="mid-section-header">
+        <h2>Main Dishes</h2>
+      </div>
+
+      <button id="toggle-Btn" onclick="toggleTable()">TABLE</button>
+
+      <div id="menu-cards">
+        <div class="cards">
+          <a
+            href="https://mdfoods.com/product/maharajas-chicken-biryani-with-egg-350g/"
+          >
+            <div class="box mainDishes-1 bg-cover">
+              <div class="in-cards">
+                <div>
+                  <h3>Maharaja Chicken Biryani</h3>
+                  <p>price: 2.700 BD</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://www.recipetineats.com/oven-baked-chicken-and-rice/">
+            <div class="box mainDishes-2 bg-cover">
+              <div class="in-cards">
+                <div>
+                  <h3>Chicken With Rice</h3>
+                  <p>price: 2.100 BD</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://applegate.com/recipes/mini-italian-subs">
+            <div class="box mainDishes-3 bg-cover">
+              <div class="in-cards">
+                <div>
+                  <h3>Mini Italy</h3>
+                  <p>price: 3.400 BD</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="cards">
+          <a href="https://www.tamingtwins.com/chicken-kebab-recipe/">
+            <div class="box mainDishes-4 bg-cover">
+              <div class="in-cards">
+                <div>
+                  <h3>Chicken Kebab</h3>
+                  <p>price: 1.400 BD</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://fauziaskitchenfun.com/recipe/international-cuisine/chelo-kabab-koobideh/"
+          >
+            <div class="box mainDishes-5 bg-cover">
+              <div class="in-cards">
+                <div>
+                  <h3>Chilo Kebab With Rice</h3>
+                  <p>price: 2.700 BD</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://www.delicious.com.au/recipes/collections/gallery/top-13-lamb-shank-recipes-for-saturday-night/ar08ik60?page=4"
+          >
+            <div class="box mainDishes-6 bg-cover">
+              <div class="in-cards">
+                <div>
+                  <h3>Family Lamb Shank Meal</h3>
+                  <p>price: 14.5 BD</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Table Section -->
+      <table id="menu-table">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Image</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Maharaja Chicken Biryani</td>
+            <td>
+              <img
+                src="./images/Maharaja Chicken Biryani.jpg"
+                alt="Maharaja Chicken Biryani"
+              />
+            </td>
+            <td>2.700 BD</td>
+          </tr>
+          <tr>
+            <td>Chicken With Rice</td>
+            <td>
+              <img
+                src="./images/Chicken With Rice.jpg"
+                alt="Chicken With Rice"
+              />
+            </td>
+            <td>2.100 BD</td>
+          </tr>
+          <tr>
+            <td>Mini Italy</td>
+            <td>
+              <img src="./images/Mini Italy.jpg" alt="Mini Italy" />
+            </td>
+            <td>3.400 BD</td>
+          </tr>
+          <tr>
+            <td>Chicken Kebab</td>
+            <td>
+              <img src="./images/Chicken Kebab.jpg" alt="Chicken Kebab" />
+            </td>
+            <td>1.400 BD</td>
+          </tr>
+          <tr>
+            <td>Chilo Kebab With Rice</td>
+            <td>
+              <img
+                src="./images/Chicken Kebab.jpg"
+                alt="Chilo Kebab With Rice"
+              />
+            </td>
+            <td>2.700 BD</td>
+          </tr>
+          <tr>
+            <td>Family Lamb Shank Meal</td>
+            <td>
+              <img
+                src="./images/Family Lamb Shank Meal.jpg"
+                alt="Family Lamb Shank Meal"
+              />
+            </td>
+            <td>14.5 BD</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="footer">
+      <p>© Hasan Ali</p>
+      <div>
+        <a href="https://github.com/HASANALI117" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://github.com/HASANALI117" target="_blank">
+          <p>Github</p>
+        </a>
+      </div>
+    </div>
+
+    <script>
+      function toggleTable() {
+        var table = document.getElementById("menu-table");
+        var cards = document.getElementById("menu-cards");
+        var btn = document.getElementById("toggle-Btn");
+        if (table.style.display === "none") {
+          table.style.display = "table";
+          cards.style.display = "none";
+          btn.innerHTML = "CARDS";
+        } else {
+          table.style.display = "none";
+          cards.style.display = "block";
+          btn.innerHTML = "TABLE";
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("menu-table").style.display = "none";
+        document.getElementById("menu-cards").style.display = "block";
+      });
+    </script>
+  </body>
+</html>

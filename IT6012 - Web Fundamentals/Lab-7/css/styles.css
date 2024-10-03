@@ -1,0 +1,313 @@
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  background-color: #dddddd;
+}
+
+hr {
+  border: dotted #b7b7b7 0.5rem;
+  border-bottom: none;
+  width: 4%;
+  margin: 4rem auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Navbar Styles */
+nav {
+  background-color: #222831;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+}
+nav div {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+  color: white;
+}
+
+nav a:hover {
+  color: #b7b7b7;
+}
+
+h1 {
+  color: white;
+  font-family: "Bree Serif", serif;
+  font-size: 2.5rem;
+  margin: 0.5rem 1rem;
+}
+
+h3 {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  margin: 1.5rem;
+  font-weight: 700;
+}
+
+button {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: #3c3d37;
+  border: 1px solid #3c3d37;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 1rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+button:hover {
+  color: #fff;
+  background-color: #23272b;
+  border-color: #1d2124;
+}
+button:focus {
+  color: #fff;
+  background-color: #23272b;
+  border-color: #1d2124;
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+button:active {
+  color: #fff;
+  background-color: #1d2124;
+  border-color: #171a1d;
+}
+
+/* About us Section */
+#about-us {
+  margin: 5rem 0;
+}
+#about-us p {
+  text-align: center;
+  padding: 0 20rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+/* Mid Section Styles */
+#mid-section {
+  text-align: center;
+  font-weight: 700;
+  margin: 5rem 0;
+  flex: 1;
+}
+
+#mid-section p {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 1rem auto;
+  font-weight: 900;
+  text-align: center;
+}
+
+/* Card Styles */
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  height: 20rem;
+  width: 24rem;
+  color: white;
+  border-radius: 1rem;
+  margin: 2rem;
+}
+
+.in-cards {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: inherit;
+  height: inherit;
+  border-radius: 1rem;
+}
+
+.in-cards h3 {
+  margin: auto;
+  font-size: 1.7rem;
+}
+
+.in-cards p {
+  font-size: 0.3rem;
+}
+
+/* Table styles */
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 2rem auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 1rem;
+  text-align: center;
+}
+
+table img {
+  border-radius: 0.5rem;
+  width: 20rem;
+  height: 15rem;
+}
+
+/* Background Image Styles */
+.bg-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.b-1 {
+  background-image: url("https://img.freepik.com/free-photo/turkish-kunefe-garnished-with-pistachio_140725-3971.jpg?w=2000");
+}
+
+.b-2 {
+  background-image: url("https://images.pexels.com/photos/3298637/pexels-photo-3298637.jpeg?cs=srgb&dl=pexels-cottonbro-studio-3298637.jpg&fm=jpg");
+}
+
+.b-3 {
+  background-image: url("https://cdn.create.vista.com/api/media/medium/185258892/stock-photo-tattooed-female-bartender-showing-colleague?token=");
+}
+
+.desserts-1 {
+  background-image: url("../images/Kunafa.jpg");
+}
+
+.desserts-2 {
+  background-image: url("../images/Basbosa.jpg");
+}
+
+.desserts-3 {
+  background-image: url("../images/Baqlawa.jpg");
+}
+.desserts-4 {
+  background-image: url("https://www.chefspencil.com/wp-content/uploads/Om-Ali-2.jpg");
+}
+
+.desserts-5 {
+  background-image: url("https://i.ytimg.com/vi/7PvKWrHzXOw/maxresdefault.jpg");
+}
+
+.desserts-6 {
+  background-image: url("https://www.chocolatesandchai.com/wp-content/uploads/2023/05/Mahalabia-Featured.jpg");
+}
+
+.mainDishes-1 {
+  background-image: url("../images/Maharaja Chicken Biryani.jpg");
+}
+
+.mainDishes-2 {
+  background-image: url("../images/Chicken With Rice.jpg");
+}
+
+.mainDishes-3 {
+  background-image: url("../images/Mini Italy.jpg");
+}
+
+.mainDishes-4 {
+  background-image: url("../images/Chicken Kebab.jpg");
+}
+
+.mainDishes-5 {
+  background-image: url("../images/Chilo Kebab With Rice.jpg");
+}
+
+.mainDishes-6 {
+  background-image: url("../images/Family Lamb Shank Meal.jpg");
+}
+
+.drinks-1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS_Te9NGSvzOzYZen1FUmecQQqiSKzTst0JQ&s");
+}
+
+.drinks-2 {
+  background-image: url("https://millscafe.bh/wp-content/uploads/2024/08/9ee3b5a6-2545-4e9b-a3ba-4958db811dd9.jpg");
+}
+
+.drinks-3 {
+  background-image: url("../images/Orange Juice.jpg");
+}
+
+.drinks-4 {
+  background-image: url("../images/Banana Juice.jpg");
+}
+
+.drinks-5 {
+  background-image: url("../images/Mojito Mix Berry.jpg");
+}
+
+.drinks-6 {
+  background-image: url("../images/Mojito Pomegranate.webp");
+}
+
+/* Contact us Section */
+#contact-us {
+  margin: 5rem 0;
+}
+#contact-us p,
+ul {
+  text-align: center;
+  padding: 0 20rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+#contact-us a {
+  color: black;
+}
+#contact-us a:hover {
+  color: #758694;
+}
+
+/* Footer Styles */
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222831;
+  color: white;
+  height: 5rem;
+  margin-top: auto;
+}
+
+#footer p {
+  font-size: small;
+  font-weight: 100;
+  margin: 0.5rem;
+}
+
+#footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+#footer a:hover {
+  color: grey;
+}
