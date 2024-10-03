@@ -72,14 +72,14 @@ h3 {
   flex: 1;
 }
 
-.mid-section-header p {
-  font-size: 15px;
+#mid-section p {
+  font-size: 1rem;
   margin-top: 0;
 }
 
 h2 {
-  font-size: 40px;
-  margin: 10px auto 30px;
+  font-size: 3rem;
+  margin: 1rem auto;
   font-weight: 900;
   text-align: center;
 }
@@ -91,8 +91,8 @@ h2 {
 }
 
 .box {
-  height: 320px;
-  width: 405px;
+  height: 20rem;
+  width: 24rem;
   color: white;
   border-radius: 1rem;
   margin: 2rem;
@@ -196,11 +196,11 @@ h2 {
 }
 
 .drinks-1 {
-  background-image: url("../images/Pepsi.jpg");
+  background-image: url("https://pbs.twimg.com/media/FFWa-s0WYAYdZD_.jpg");
 }
 
 .drinks-2 {
-  background-image: url("../images/Pepsi Diet.jpg");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS_Te9NGSvzOzYZen1FUmecQQqiSKzTst0JQ&s");
 }
 
 .drinks-3 {
@@ -265,3 +265,31 @@ ul {
 #footer a:hover {
   color: grey;
 }
+
+/* Medium Devices */
+/* @media (min-width: 768px) { */
+/* Card Styles */
+/* .cards {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  height: 320px;
+  width: 405px;
+  color: white;
+  border-radius: 1rem;
+  margin: 2rem;
+}
+
+.in-cards {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: inherit;
+  height: inherit;
+  border-radius: 1rem;
+}
+} */
