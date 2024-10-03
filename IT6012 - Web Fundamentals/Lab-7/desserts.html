@@ -34,77 +34,143 @@
         <h2>Desserts</h2>
       </div>
 
-      <div class="cards">
-        <a href="https://amiraspantry.com/knafeh/">
-          <div class="box desserts-1 bg-cover">
-            <div class="in-cards">
-              <div>
-                <h3>Kunaffa</h3>
-                <p>price: 1.400 BD</p>
-              </div>
-            </div>
-          </div>
-        </a>
+      <button id="toggle-Btn" onclick="toggleTable()">TABLE</button>
 
-        <a href="https://en.wikipedia.org/wiki/Basbousa">
-          <div class="box desserts-2 bg-cover">
-            <div class="in-cards">
-              <div>
-                <h3>Basbosa</h3>
-                <p>price: 1.200 BD</p>
+      <div id="menu-cards">
+        <div class="cards">
+          <a href="https://amiraspantry.com/knafeh/">
+            <div class="box desserts-1 bg-cover">
+              <div class="in-cards">
+                <div>
+                  <h3>Kunaffa</h3>
+                  <p>price: 1.400 BD</p>
+                </div>
               </div>
             </div>
-          </div>
-        </a>
+          </a>
 
-        <a href="https://en.wikipedia.org/wiki/Baklava">
-          <div class="box desserts-3 bg-cover">
-            <div class="in-cards">
-              <div>
-                <h3>Baqlava</h3>
-                <p>price: 1.800 BD</p>
+          <a href="https://en.wikipedia.org/wiki/Basbousa">
+            <div class="box desserts-2 bg-cover">
+              <div class="in-cards">
+                <div>
+                  <h3>Basbosa</h3>
+                  <p>price: 1.200 BD</p>
+                </div>
               </div>
             </div>
-          </div>
-        </a>
+          </a>
+
+          <a href="https://en.wikipedia.org/wiki/Baklava">
+            <div class="box desserts-3 bg-cover">
+              <div class="in-cards">
+                <div>
+                  <h3>Baqlava</h3>
+                  <p>price: 1.800 BD</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="cards">
+          <a href="https://en.wikipedia.org/wiki/Om_Ali">
+            <div class="box desserts-4 bg-cover">
+              <div class="in-cards">
+                <div>
+                  <h3>Umm Ali</h3>
+                  <p>price: 1.700 BD</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://en.wikipedia.org/wiki/Lokma">
+            <div class="box desserts-5 bg-cover">
+              <div class="in-cards">
+                <div>
+                  <h3>Luqaimat</h3>
+                  <p>price: 1.000 BD</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://www.chocolatesandchai.com/mahalabia-middle-eastern-milk-pudding-muhallebi/"
+          >
+            <div class="box desserts-6 bg-cover">
+              <div class="in-cards">
+                <div>
+                  <h3>Muhallabia</h3>
+                  <p>price: 1.000 BD</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
 
-      <div class="cards">
-        <a href="https://en.wikipedia.org/wiki/Om_Ali">
-          <div class="box desserts-4 bg-cover">
-            <div class="in-cards">
-              <div>
-                <h3>Umm Ali</h3>
-                <p>price: 1.700 BD</p>
-              </div>
-            </div>
-          </div>
-        </a>
-
-        <a href="https://en.wikipedia.org/wiki/Lokma">
-          <div class="box desserts-5 bg-cover">
-            <div class="in-cards">
-              <div>
-                <h3>Luqaimat</h3>
-                <p>price: 1.000 BD</p>
-              </div>
-            </div>
-          </div>
-        </a>
-
-        <a
-          href="https://www.chocolatesandchai.com/mahalabia-middle-eastern-milk-pudding-muhallebi/"
-        >
-          <div class="box desserts-6 bg-cover">
-            <div class="in-cards">
-              <div>
-                <h3>Muhallabia</h3>
-                <p>price: 1.000 BD</p>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
+      <!-- Table Section -->
+      <table id="menu-table">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Image</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Kunaffa</td>
+            <td><img src="./images/Kunafa.jpg" alt="Kunaffa" /></td>
+            <td>1.400 BD</td>
+          </tr>
+          <tr>
+            <td>Basbosa</td>
+            <td>
+              <img src="./images/Basbosa.jpg" alt="Kunaffa" />
+            </td>
+            <td>1.200 BD</td>
+          </tr>
+          <tr>
+            <td>Baqlava</td>
+            <td>
+              <img src="./images/Baqlawa.jpg" alt="Kunaffa" />
+            </td>
+            <td>1.800 BD</td>
+          </tr>
+          <tr>
+            <td>Umm Ali</td>
+            <td>
+              <img
+                src="https://www.chefspencil.com/wp-content/uploads/Om-Ali-2.jpg"
+                alt="Kunaffa"
+              />
+            </td>
+            <td>1.700 BD</td>
+          </tr>
+          <tr>
+            <td>Luqaimat</td>
+            <td>
+              <img
+                src="https://i.ytimg.com/vi/7PvKWrHzXOw/maxresdefault.jpg"
+                alt="Kunaffa"
+              />
+            </td>
+            <td>1.000 BD</td>
+          </tr>
+          <tr>
+            <td>Muhallabia</td>
+            <td>
+              <img
+                src="https://www.chocolatesandchai.com/wp-content/uploads/2023/05/Mahalabia-Featured.jpg"
+                alt="Kunaffa"
+              />
+            </td>
+            <td>1.000 BD</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <div id="footer">
@@ -118,5 +184,27 @@
         </a>
       </div>
     </div>
+
+    <script>
+      function toggleTable() {
+        var table = document.getElementById("menu-table");
+        var cards = document.getElementById("menu-cards");
+        var btn = document.getElementById("toggle-Btn");
+        if (table.style.display === "none") {
+          table.style.display = "table";
+          cards.style.display = "none";
+          btn.innerHTML = "CARDS";
+        } else {
+          table.style.display = "none";
+          cards.style.display = "block";
+          btn.innerHTML = "TABLE";
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("menu-table").style.display = "none";
+        document.getElementById("menu-cards").style.display = "block";
+      });
+    </script>
   </body>
 </html>

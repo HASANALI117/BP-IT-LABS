@@ -34,81 +34,152 @@
         <h2>Main Dishes</h2>
       </div>
 
-      <div class="cards">
-        <a
-          href="https://mdfoods.com/product/maharajas-chicken-biryani-with-egg-350g/"
-        >
-          <div class="box mainDishes-1 bg-cover">
-            <div class="in-cards">
-              <div>
-                <h3>Maharaja Chicken Biryani</h3>
-                <p>price: 2.700 BD</p>
-              </div>
-            </div>
-          </div>
-        </a>
+      <button id="toggle-Btn" onclick="toggleTable()">TABLE</button>
 
-        <a href="https://www.recipetineats.com/oven-baked-chicken-and-rice/">
-          <div class="box mainDishes-2 bg-cover">
-            <div class="in-cards">
-              <div>
-                <h3>Chicken With Rice</h3>
-                <p>price: 2.100 BD</p>
+      <div id="menu-cards">
+        <div class="cards">
+          <a
+            href="https://mdfoods.com/product/maharajas-chicken-biryani-with-egg-350g/"
+          >
+            <div class="box mainDishes-1 bg-cover">
+              <div class="in-cards">
+                <div>
+                  <h3>Maharaja Chicken Biryani</h3>
+                  <p>price: 2.700 BD</p>
+                </div>
               </div>
             </div>
-          </div>
-        </a>
+          </a>
 
-        <a href="https://applegate.com/recipes/mini-italian-subs">
-          <div class="box mainDishes-3 bg-cover">
-            <div class="in-cards">
-              <div>
-                <h3>Mini Italy</h3>
-                <p>price: 3.400 BD</p>
+          <a href="https://www.recipetineats.com/oven-baked-chicken-and-rice/">
+            <div class="box mainDishes-2 bg-cover">
+              <div class="in-cards">
+                <div>
+                  <h3>Chicken With Rice</h3>
+                  <p>price: 2.100 BD</p>
+                </div>
               </div>
             </div>
-          </div>
-        </a>
+          </a>
+
+          <a href="https://applegate.com/recipes/mini-italian-subs">
+            <div class="box mainDishes-3 bg-cover">
+              <div class="in-cards">
+                <div>
+                  <h3>Mini Italy</h3>
+                  <p>price: 3.400 BD</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="cards">
+          <a href="https://www.tamingtwins.com/chicken-kebab-recipe/">
+            <div class="box mainDishes-4 bg-cover">
+              <div class="in-cards">
+                <div>
+                  <h3>Chicken Kebab</h3>
+                  <p>price: 1.400 BD</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://fauziaskitchenfun.com/recipe/international-cuisine/chelo-kabab-koobideh/"
+          >
+            <div class="box mainDishes-5 bg-cover">
+              <div class="in-cards">
+                <div>
+                  <h3>Chilo Kebab With Rice</h3>
+                  <p>price: 2.700 BD</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://www.delicious.com.au/recipes/collections/gallery/top-13-lamb-shank-recipes-for-saturday-night/ar08ik60?page=4"
+          >
+            <div class="box mainDishes-6 bg-cover">
+              <div class="in-cards">
+                <div>
+                  <h3>Family Lamb Shank Meal</h3>
+                  <p>price: 14.5 BD</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
 
-      <div class="cards">
-        <a href="https://www.tamingtwins.com/chicken-kebab-recipe/">
-          <div class="box mainDishes-4 bg-cover">
-            <div class="in-cards">
-              <div>
-                <h3>Chicken Kebab</h3>
-                <p>price: 1.400 BD</p>
-              </div>
-            </div>
-          </div>
-        </a>
-
-        <a
-          href="https://fauziaskitchenfun.com/recipe/international-cuisine/chelo-kabab-koobideh/"
-        >
-          <div class="box mainDishes-5 bg-cover">
-            <div class="in-cards">
-              <div>
-                <h3>Chilo Kebab With Rice</h3>
-                <p>price: 2.700 BD</p>
-              </div>
-            </div>
-          </div>
-        </a>
-
-        <a
-          href="https://www.delicious.com.au/recipes/collections/gallery/top-13-lamb-shank-recipes-for-saturday-night/ar08ik60?page=4"
-        >
-          <div class="box mainDishes-6 bg-cover">
-            <div class="in-cards">
-              <div>
-                <h3>Family Lamb Shank Meal</h3>
-                <p>price: 14.5 BD</p>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
+      <!-- Table Section -->
+      <table id="menu-table">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Image</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Maharaja Chicken Biryani</td>
+            <td>
+              <img
+                src="./images/Maharaja Chicken Biryani.jpg"
+                alt="Maharaja Chicken Biryani"
+              />
+            </td>
+            <td>2.700 BD</td>
+          </tr>
+          <tr>
+            <td>Chicken With Rice</td>
+            <td>
+              <img
+                src="./images/Chicken With Rice.jpg"
+                alt="Chicken With Rice"
+              />
+            </td>
+            <td>2.100 BD</td>
+          </tr>
+          <tr>
+            <td>Mini Italy</td>
+            <td>
+              <img src="./images/Mini Italy.jpg" alt="Mini Italy" />
+            </td>
+            <td>3.400 BD</td>
+          </tr>
+          <tr>
+            <td>Chicken Kebab</td>
+            <td>
+              <img src="./images/Chicken Kebab.jpg" alt="Chicken Kebab" />
+            </td>
+            <td>1.400 BD</td>
+          </tr>
+          <tr>
+            <td>Chilo Kebab With Rice</td>
+            <td>
+              <img
+                src="./images/Chicken Kebab.jpg"
+                alt="Chilo Kebab With Rice"
+              />
+            </td>
+            <td>2.700 BD</td>
+          </tr>
+          <tr>
+            <td>Family Lamb Shank Meal</td>
+            <td>
+              <img
+                src="./images/Family Lamb Shank Meal.jpg"
+                alt="Family Lamb Shank Meal"
+              />
+            </td>
+            <td>14.5 BD</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <div id="footer">
@@ -122,5 +193,27 @@
         </a>
       </div>
     </div>
+
+    <script>
+      function toggleTable() {
+        var table = document.getElementById("menu-table");
+        var cards = document.getElementById("menu-cards");
+        var btn = document.getElementById("toggle-Btn");
+        if (table.style.display === "none") {
+          table.style.display = "table";
+          cards.style.display = "none";
+          btn.innerHTML = "CARDS";
+        } else {
+          table.style.display = "none";
+          cards.style.display = "block";
+          btn.innerHTML = "TABLE";
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("menu-table").style.display = "none";
+        document.getElementById("menu-cards").style.display = "block";
+      });
+    </script>
   </body>
 </html>

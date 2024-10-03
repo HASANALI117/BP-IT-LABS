@@ -43,7 +43,7 @@ h1 {
   color: white;
   font-family: "Bree Serif", serif;
   font-size: 2.5rem;
-  margin: 10px 20px;
+  margin: 0.5rem 1rem;
 }
 
 h3 {
@@ -51,6 +51,39 @@ h3 {
   font-family: "Nunito", sans-serif;
   margin: 1.5rem;
   font-weight: 700;
+}
+
+button {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: #3c3d37;
+  border: 1px solid #3c3d37;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 1rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+button:hover {
+  color: #fff;
+  background-color: #23272b;
+  border-color: #1d2124;
+}
+button:focus {
+  color: #fff;
+  background-color: #23272b;
+  border-color: #1d2124;
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+button:active {
+  color: #fff;
+  background-color: #1d2124;
+  border-color: #171a1d;
 }
 
 /* About us Section */
@@ -110,24 +143,37 @@ h2 {
 }
 
 .in-cards h3 {
-  margin: 0 10px;
-  font-size: 30px;
+  margin: auto;
+  font-size: 1.7rem;
 }
 
 .in-cards p {
-  margin: 10px 10px;
-  font-size: 16px;
+  font-size: 0.3rem;
 }
 
-.cards-bottom {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 0;
+/* Table styles */
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 2rem auto;
 }
 
-.cb-1 {
-  width: 405px;
-  background-color: #efefef;
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 1rem;
+  text-align: center;
+}
+
+table img {
+  border-radius: 0.5rem;
+  width: 20rem;
+  height: 15rem;
 }
 
 /* Background Image Styles */
@@ -196,11 +242,11 @@ h2 {
 }
 
 .drinks-1 {
-  background-image: url("https://pbs.twimg.com/media/FFWa-s0WYAYdZD_.jpg");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS_Te9NGSvzOzYZen1FUmecQQqiSKzTst0JQ&s");
 }
 
 .drinks-2 {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS_Te9NGSvzOzYZen1FUmecQQqiSKzTst0JQ&s");
+  background-image: url("https://millscafe.bh/wp-content/uploads/2024/08/9ee3b5a6-2545-4e9b-a3ba-4958db811dd9.jpg");
 }
 
 .drinks-3 {
@@ -265,31 +311,3 @@ ul {
 #footer a:hover {
   color: grey;
 }
-
-/* Medium Devices */
-/* @media (min-width: 768px) { */
-/* Card Styles */
-/* .cards {
-  display: flex;
-  justify-content: center;
-}
-
-.box {
-  height: 320px;
-  width: 405px;
-  color: white;
-  border-radius: 1rem;
-  margin: 2rem;
-}
-
-.in-cards {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.4);
-  width: inherit;
-  height: inherit;
-  border-radius: 1rem;
-}
-} */
