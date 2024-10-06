@@ -1,0 +1,33 @@
+p {
+  background-color: lightblue;
+}
+
+h1,
+h3 {
+  color: darkblue;
+}
+
+img {
+  border: 1px solid red;
+}
+
+a {
+  color: green;
+  font-weight: bold;
+}
+
+/* ID Styles */
+#links {
+  background-color: #d3d3d3;
+}
+
+/* Class Styles */
+.first {
+  background-color: #66cdaa;
+}
+.second {
+  background-color: #7fffd4;
+}
+.third {
+  background-color: #e0ffff;
+}

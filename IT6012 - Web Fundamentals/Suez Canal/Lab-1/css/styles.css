@@ -1,0 +1,17 @@
+p {
+  background-color: lightblue;
+}
+
+h1,
+h3 {
+  color: darkblue;
+}
+
+img {
+  border: 1px solid red;
+}
+
+a {
+  color: green;
+  font-weight: bold;
+}
