@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Student Registration Form</h1>
+      <form action="">
+        <div class="input-group">
+          <label for="first-name">First Name</label>
+          <input
+            type="text"
+            name="first-name"
+            id="first-name"
+            placeholder="Your fIrst name"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="last-name">Last Name</label>
+          <input
+            type="text"
+            name="last-name"
+            id="last-name"
+            placeholder="Your last name"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your email"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="phone-number">Phone Number</label>
+          <input
+            type="tel"
+            name="phone-number"
+            id="phone-number"
+            placeholder="Your phone number"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Create a password"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="course">Course</label>
+          <select name="course" id="course" required>
+            <option value="" disabled selected>--Select a course--</option>
+            <option value="web">Web Fundamentals</option>
+            <option value="info">Information Security</option>
+            <option value="sad">System Analysis and Design</option>
+          </select>
+        </div>
+
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </body>
+</html>
