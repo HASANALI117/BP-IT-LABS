@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit 3 - Lab 3</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Book your Appointment</h2>
+
+      <form id="appointmentForm">
+        <div class="form-group">
+          <label for="name">Name:<span>*</span></label>
+
+          <div class="input-group">
+            <input type="text" id="name" name="name" />
+            <div class="error"></div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="mobile">Mobile No.:<span>*</span></label>
+
+          <div class="input-group">
+            <input type="tel" id="mobile" name="mobile" />
+            <div id="mobileError" class="error"></div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:<span>*</span></label>
+
+          <div class="input-group">
+            <input type="email" id="email" name="email" />
+            <div id="emailError" class="error"></div>
+          </div>
+        </div>
+
+        <div class="btn-div">
+          <button type="button" onclick="validateForm()">Book</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
